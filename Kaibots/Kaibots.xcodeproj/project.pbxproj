@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A0A97171E76166400A9B4E6 /* ScanImage.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5A0A97161E76166400A9B4E6 /* ScanImage.gif */; };
+		5A0A971B1E7618E400A9B4E6 /* background-home.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5A0A971A1E7618E400A9B4E6 /* background-home.gif */; };
+		5A39A66A1E885F20008D6AFF /* Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A39A6691E885F20008D6AFF /* Bluetooth.swift */; };
+		5A525BAB1E8850990050A5DD /* ListOfDevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A525BAA1E8850990050A5DD /* ListOfDevicesViewController.swift */; };
+		5A7A4A951E729A0E00555E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A4A941E729A0E00555E1B /* AppDelegate.swift */; };
+		5A7A4A971E729A0E00555E1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A4A961E729A0E00555E1B /* ViewController.swift */; };
+		5A7A4A9A1E729A0E00555E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7A4A981E729A0E00555E1B /* Main.storyboard */; };
+		5A7A4A9C1E729A0E00555E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A7A4A9B1E729A0E00555E1B /* Assets.xcassets */; };
+		5A7A4A9F1E729A0E00555E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7A4A9D1E729A0E00555E1B /* LaunchScreen.storyboard */; };
+		5A7A4AAA1E729A0F00555E1B /* KaibotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A4AA91E729A0F00555E1B /* KaibotsTests.swift */; };
+		5A7A4AB51E729A0F00555E1B /* KaibotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A4AB41E729A0F00555E1B /* KaibotsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A7A4AA61E729A0F00555E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A7A4A891E729A0E00555E1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A7A4A901E729A0E00555E1B;
+			remoteInfo = Kaibots;
+		};
+		5A7A4AB11E729A0F00555E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A7A4A891E729A0E00555E1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A7A4A901E729A0E00555E1B;
+			remoteInfo = Kaibots;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A0A97161E76166400A9B4E6 /* ScanImage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = ScanImage.gif; path = "../../../../Google Drive/Kaibots/Pantallas/nuevo/imagenes/ScanImage.gif"; sourceTree = "<group>"; };
+		5A0A971A1E7618E400A9B4E6 /* background-home.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "background-home.gif"; path = "../../../../Google Drive/Kaibots/Pantallas/nuevo/imagenes/background-home.gif"; sourceTree = "<group>"; };
+		5A39A6691E885F20008D6AFF /* Bluetooth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bluetooth.swift; sourceTree = "<group>"; };
+		5A525BAA1E8850990050A5DD /* ListOfDevicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOfDevicesViewController.swift; sourceTree = "<group>"; };
+		5A7A4A911E729A0E00555E1B /* Kaibots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaibots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7A4A941E729A0E00555E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A7A4A961E729A0E00555E1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A7A4A991E729A0E00555E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A7A4A9B1E729A0E00555E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A7A4A9E1E729A0E00555E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A7A4AA01E729A0E00555E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A7A4AA51E729A0F00555E1B /* KaibotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaibotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7A4AA91E729A0F00555E1B /* KaibotsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaibotsTests.swift; sourceTree = "<group>"; };
+		5A7A4AAB1E729A0F00555E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A7A4AB01E729A0F00555E1B /* KaibotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaibotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7A4AB41E729A0F00555E1B /* KaibotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaibotsUITests.swift; sourceTree = "<group>"; };
+		5A7A4AB61E729A0F00555E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A7A4A8E1E729A0E00555E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7A4AA21E729A0F00555E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7A4AAD1E729A0F00555E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A7A4A881E729A0E00555E1B = {
+			isa = PBXGroup;
+			children = (
+				5A7A4A931E729A0E00555E1B /* Kaibots */,
+				5A7A4AA81E729A0F00555E1B /* KaibotsTests */,
+				5A7A4AB31E729A0F00555E1B /* KaibotsUITests */,
+				5A7A4A921E729A0E00555E1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A7A4A921E729A0E00555E1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A7A4A911E729A0E00555E1B /* Kaibots.app */,
+				5A7A4AA51E729A0F00555E1B /* KaibotsTests.xctest */,
+				5A7A4AB01E729A0F00555E1B /* KaibotsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A7A4A931E729A0E00555E1B /* Kaibots */ = {
+			isa = PBXGroup;
+			children = (
+				5A0A971A1E7618E400A9B4E6 /* background-home.gif */,
+				5A7A4A941E729A0E00555E1B /* AppDelegate.swift */,
+				5A7A4A961E729A0E00555E1B /* ViewController.swift */,
+				5A7A4A981E729A0E00555E1B /* Main.storyboard */,
+				5A0A97161E76166400A9B4E6 /* ScanImage.gif */,
+				5A7A4A9B1E729A0E00555E1B /* Assets.xcassets */,
+				5A7A4A9D1E729A0E00555E1B /* LaunchScreen.storyboard */,
+				5A7A4AA01E729A0E00555E1B /* Info.plist */,
+				5A525BAA1E8850990050A5DD /* ListOfDevicesViewController.swift */,
+				5A39A6691E885F20008D6AFF /* Bluetooth.swift */,
+			);
+			path = Kaibots;
+			sourceTree = "<group>";
+		};
+		5A7A4AA81E729A0F00555E1B /* KaibotsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A7A4AA91E729A0F00555E1B /* KaibotsTests.swift */,
+				5A7A4AAB1E729A0F00555E1B /* Info.plist */,
+			);
+			path = KaibotsTests;
+			sourceTree = "<group>";
+		};
+		5A7A4AB31E729A0F00555E1B /* KaibotsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A7A4AB41E729A0F00555E1B /* KaibotsUITests.swift */,
+				5A7A4AB61E729A0F00555E1B /* Info.plist */,
+			);
+			path = KaibotsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A7A4A901E729A0E00555E1B /* Kaibots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A7A4AB91E729A0F00555E1B /* Build configuration list for PBXNativeTarget "Kaibots" */;
+			buildPhases = (
+				5A7A4A8D1E729A0E00555E1B /* Sources */,
+				5A7A4A8E1E729A0E00555E1B /* Frameworks */,
+				5A7A4A8F1E729A0E00555E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kaibots;
+			productName = Kaibots;
+			productReference = 5A7A4A911E729A0E00555E1B /* Kaibots.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A7A4AA41E729A0F00555E1B /* KaibotsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A7A4ABC1E729A0F00555E1B /* Build configuration list for PBXNativeTarget "KaibotsTests" */;
+			buildPhases = (
+				5A7A4AA11E729A0F00555E1B /* Sources */,
+				5A7A4AA21E729A0F00555E1B /* Frameworks */,
+				5A7A4AA31E729A0F00555E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A7A4AA71E729A0F00555E1B /* PBXTargetDependency */,
+			);
+			name = KaibotsTests;
+			productName = KaibotsTests;
+			productReference = 5A7A4AA51E729A0F00555E1B /* KaibotsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A7A4AAF1E729A0F00555E1B /* KaibotsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A7A4ABF1E729A0F00555E1B /* Build configuration list for PBXNativeTarget "KaibotsUITests" */;
+			buildPhases = (
+				5A7A4AAC1E729A0F00555E1B /* Sources */,
+				5A7A4AAD1E729A0F00555E1B /* Frameworks */,
+				5A7A4AAE1E729A0F00555E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A7A4AB21E729A0F00555E1B /* PBXTargetDependency */,
+			);
+			name = KaibotsUITests;
+			productName = KaibotsUITests;
+			productReference = 5A7A4AB01E729A0F00555E1B /* KaibotsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A7A4A891E729A0E00555E1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Yasu Flores";
+				TargetAttributes = {
+					5A7A4A901E729A0E00555E1B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6ABWCBC8Z9;
+						ProvisioningStyle = Automatic;
+					};
+					5A7A4AA41E729A0F00555E1B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A7A4A901E729A0E00555E1B;
+					};
+					5A7A4AAF1E729A0F00555E1B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A7A4A901E729A0E00555E1B;
+					};
+				};
+			};
+			buildConfigurationList = 5A7A4A8C1E729A0E00555E1B /* Build configuration list for PBXProject "Kaibots" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A7A4A881E729A0E00555E1B;
+			productRefGroup = 5A7A4A921E729A0E00555E1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A7A4A901E729A0E00555E1B /* Kaibots */,
+				5A7A4AA41E729A0F00555E1B /* KaibotsTests */,
+				5A7A4AAF1E729A0F00555E1B /* KaibotsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A7A4A8F1E729A0E00555E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0A971B1E7618E400A9B4E6 /* background-home.gif in Resources */,
+				5A7A4A9F1E729A0E00555E1B /* LaunchScreen.storyboard in Resources */,
+				5A0A97171E76166400A9B4E6 /* ScanImage.gif in Resources */,
+				5A7A4A9C1E729A0E00555E1B /* Assets.xcassets in Resources */,
+				5A7A4A9A1E729A0E00555E1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7A4AA31E729A0F00555E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7A4AAE1E729A0F00555E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A7A4A8D1E729A0E00555E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A39A66A1E885F20008D6AFF /* Bluetooth.swift in Sources */,
+				5A525BAB1E8850990050A5DD /* ListOfDevicesViewController.swift in Sources */,
+				5A7A4A971E729A0E00555E1B /* ViewController.swift in Sources */,
+				5A7A4A951E729A0E00555E1B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7A4AA11E729A0F00555E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7A4AAA1E729A0F00555E1B /* KaibotsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7A4AAC1E729A0F00555E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7A4AB51E729A0F00555E1B /* KaibotsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A7A4AA71E729A0F00555E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A7A4A901E729A0E00555E1B /* Kaibots */;
+			targetProxy = 5A7A4AA61E729A0F00555E1B /* PBXContainerItemProxy */;
+		};
+		5A7A4AB21E729A0F00555E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A7A4A901E729A0E00555E1B /* Kaibots */;
+			targetProxy = 5A7A4AB11E729A0F00555E1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A7A4A981E729A0E00555E1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A7A4A991E729A0E00555E1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A7A4A9D1E729A0E00555E1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A7A4A9E1E729A0E00555E1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A7A4AB71E729A0F00555E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A7A4AB81E729A0F00555E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A7A4ABA1E729A0F00555E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6ABWCBC8Z9;
+				INFOPLIST_FILE = Kaibots/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaibots.Kaibots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5A7A4ABB1E729A0F00555E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6ABWCBC8Z9;
+				INFOPLIST_FILE = Kaibots/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaibots.Kaibots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5A7A4ABD1E729A0F00555E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KaibotsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaibots.KaibotsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaibots.app/Kaibots";
+			};
+			name = Debug;
+		};
+		5A7A4ABE1E729A0F00555E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KaibotsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaibots.KaibotsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaibots.app/Kaibots";
+			};
+			name = Release;
+		};
+		5A7A4AC01E729A0F00555E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KaibotsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaibots.KaibotsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Kaibots;
+			};
+			name = Debug;
+		};
+		5A7A4AC11E729A0F00555E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KaibotsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaibots.KaibotsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Kaibots;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A7A4A8C1E729A0E00555E1B /* Build configuration list for PBXProject "Kaibots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7A4AB71E729A0F00555E1B /* Debug */,
+				5A7A4AB81E729A0F00555E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A7A4AB91E729A0F00555E1B /* Build configuration list for PBXNativeTarget "Kaibots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7A4ABA1E729A0F00555E1B /* Debug */,
+				5A7A4ABB1E729A0F00555E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A7A4ABC1E729A0F00555E1B /* Build configuration list for PBXNativeTarget "KaibotsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7A4ABD1E729A0F00555E1B /* Debug */,
+				5A7A4ABE1E729A0F00555E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A7A4ABF1E729A0F00555E1B /* Build configuration list for PBXNativeTarget "KaibotsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7A4AC01E729A0F00555E1B /* Debug */,
+				5A7A4AC11E729A0F00555E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A7A4A891E729A0E00555E1B /* Project object */;
+}
